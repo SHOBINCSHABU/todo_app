@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         appBar: AppBar(
           // leading: Icon(Icons.arrow_back),
-          title: Text("ToDo...",
+          title: Text("To Do...",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.amber)),
           centerTitle: true,
           // actions: [Icon(Icons.search)],
@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Center(
                         child: Text("Add to List",
                             textAlign: TextAlign.center,
-                            style: TextStyle(
+                            style: TextStyle(color: Colors.white,
                                 fontWeight: FontWeight.bold, fontSize: 20)),
                       ),
                     ),

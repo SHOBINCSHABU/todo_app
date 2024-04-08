@@ -32,9 +32,9 @@ class _ListviewState extends State<Listview> {
             child: Text(
               widget.title,
               style: widget.isChecked == false
-                  ? TextStyle(color: Colors.black, fontSize: 20)
+                  ? TextStyle(color: Colors.red, fontSize: 20)
                   : TextStyle(
-                      color: Colors.black,
+                      color: Colors.green,
                       decoration: TextDecoration.lineThrough,
                       fontSize: 20),
             ),
